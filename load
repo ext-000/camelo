@@ -1,5 +1,5 @@
 local executor = string.lower(identifyexecutor and identifyexecutor() or "")
-local source = game:HttpGet("https://raw.githubusercontent.com/ext-000/camelo/refs/heads/main/xyz")
+local source = game:HttpGet("https://raw.githubusercontent.com/ext-000/camelo/refs/heads/main/xyzz")
 local threadSource = [[
     for _, func in getgc(false) do
         if type(func) == "function" and islclosure(func) and debug.getinfo(func).name == "require" and string.find(debug.getinfo(func).source, "ClientLoader") then
